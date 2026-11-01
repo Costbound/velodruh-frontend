@@ -1,0 +1,65 @@
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-md);
+}
+
+.stepBody {
+  margin: 1.75rem 0;
+  min-height: 220px;
+}
+
+.errorList {
+  background-color: var(--color-danger-bg);
+  border: 1px solid var(--color-danger-border);
+  color: var(--color-danger-text);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  font-size: 0.85rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navBack {
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.navBack:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.navNext {
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  border: none;
+  background-color: var(--color-primary-600);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 18px -8px rgb(22 163 74 / 0.5);
+}
+
+.navNext:hover {
+  background-color: var(--color-primary-700);
+}
+
+.navNext:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

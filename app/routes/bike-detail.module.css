@@ -1,0 +1,170 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2.5rem 1.5rem 4rem;
+  flex: 1;
+}
+
+.loading {
+  padding: 4rem 0;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.backLink {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.backLink:hover {
+  color: var(--color-text);
+}
+
+.header {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.image {
+  width: 220px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface);
+}
+
+.name {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.meta {
+  color: var(--color-text-muted);
+  margin-top: 0.4rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+  color: var(--color-primary-500);
+}
+
+.description {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.specGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.specCard {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 0.9rem;
+}
+
+.specLabel {
+  font-size: 0.72rem;
+  color: var(--color-text-faint);
+  margin-bottom: 0.2rem;
+}
+
+.specValue {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.variants {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.variantCard {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+
+.variantTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.variantGeometry {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.offerShop {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.offerStock {
+  font-size: 0.75rem;
+  color: var(--color-danger-text);
+}
+
+.offerStock[data-in-stock="true"] {
+  color: var(--color-primary-500);
+}
+
+.offerPriceBlock {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: flex-end;
+}
+
+.offerPrice {
+  font-weight: 700;
+}
+
+.offerLink {
+  font-size: 0.78rem;
+  color: var(--color-primary-500);
+  font-weight: 600;
+}

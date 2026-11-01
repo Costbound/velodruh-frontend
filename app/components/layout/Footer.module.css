@@ -1,0 +1,19 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  margin-top: auto;
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.muted {
+  color: var(--color-text-faint);
+}
